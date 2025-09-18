@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Esa Fostering Recruitment</title>
+  <style>
+    body {font-family: Arial, sans-serif;margin: 0;padding: 0;background: #f5f7fa;color: #333;}
+    header {background: #1e3a8a;padding: 18px;text-align: center;color: white;position: sticky;top: 0;z-index: 1000;box-shadow: 0 2px 6px rgba(0,0,0,0.2);}
+    header h1 {margin: 0;font-size: 24px;}
+    header p {font-size: 14px;margin-top: 4px;}
+    .container {display: flex;justify-content: center;align-items: stretch;gap: 18px;padding: 20px;max-width: 900px;margin: 0 auto;flex-wrap: wrap;}
+    .form-box, .info {flex: 1;min-width: 280px;background: white;padding: 18px;border-radius: 8px;box-shadow: 0 4px 10px rgba(0,0,0,0.1);font-size: 13px;box-sizing: border-box;}
+    .form-box h2 {margin: 0 0 12px;font-size: 16px;color: #1e3a8a;text-align: center;}
+    .form-box input, .form-box select {width: 100%;padding: 8px;margin: 6px 0;border: 1px solid #ccc;border-radius: 6px;font-size: 13px;box-sizing: border-box;}
+    .form-box button {background: #f59e0b;color: white;border: none;padding: 10px;border-radius: 6px;font-size: 14px;width: 100%;cursor: pointer;margin-top: 10px;}
+    .form-box button:hover {background: #d97706;}
+    .info h3 {color: #1e3a8a;margin-bottom: 8px;font-size: 15px;text-align: left;}
+    .info .testimonial {font-style: italic;font-size: 12px;background: #f9fafb;padding: 8px;border-radius: 6px;box-shadow: 0 2px 6px rgba(0,0,0,0.05);margin-top: 10px;}
+    .contact {margin-top: 15px;font-size: 13px;background: #f9fafb;padding: 10px;border-radius: 6px;text-align: left;}
+    .contact a {color: #1e3a8a;text-decoration: none;font-weight: bold;}
+    footer {background: #1e3a8a;color: white;text-align: center;padding: 12px;font-size: 11px;line-height: 1.6;}
+    footer a {color: #f59e0b;text-decoration: none;}
+    @media (max-width: 768px) {.container {flex-direction: column;gap: 15px;padding: 15px;}}
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Esa Fostering Recruitment</h1>
+  <p>Change a life today. Quick, simple referral.</p>
+</header>
+
+<div class="container">
+  <div class="form-box">
+    <h2>Start Your Journey</h2>
+    <form action="https://formspree.io/f/mdklqorz" method="POST">
+      <input type="text" name="name" placeholder="Full Name*" required>
+      <input type="email" name="email" placeholder="Email*" required>
+      <input type="text" name="phone" placeholder="Phone Number*" required>
+      <select name="interest" required>
+        <option value="">Select Interest</option>
+        <option value="Fostering">Become a Foster Carer</option>
+        <option value="Info Pack">Request Information Pack</option>
+        <option value="Call Back">Request a Call Back</option>
+      </select>
+      <input type="hidden" name="_redirect" value="thankyou.html">
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+
+  <div class="info">
+    <h3>Trusted Referral Service</h3>
+    <p>We connect you with OFSTED-approved fostering agencies. Safe. Reliable. Supportive.</p>
+    <p><strong>About Us:</strong> Esa Fostering Recruitment is an independent referral service. Our role is to introduce you to trusted, regulated fostering agencies. We do not carry out assessments ourselves. Instead, we ensure you are connected with professional support every step of the way.</p>
+    <div class="testimonial">“They made the process simple and gave us the confidence to take the first step.” – A Foster Parent</div>
+    <div class="contact">
+      <p><strong>Contact Us:</strong></p>
+      <p>Email: <a href="mailto:s.esa786@gmail.com">s.esa786@gmail.com</a></p>
+      <p>Mobile/WhatsApp: <a href="https://wa.me/447930342425">+44 7930 342425</a></p>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <p>© 2025 Esa Fostering Recruitment</p>
+  <p><strong>Important Notice:</strong> We are a referral service only. We do not directly approve or regulate foster carers. All fostering assessments and approvals are managed by OFSTED-regulated fostering agencies in the UK.</p>
+  <p>Submitting this form expresses interest only. It does not create a fostering agreement or guarantee approval as a foster carer.</p>
+  <p>Your data will be handled according to our <a href="privacy.html">Privacy Policy</a>.</p>
+</footer>
+
+</body>
+</html>
